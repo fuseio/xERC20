@@ -1,17 +1,17 @@
 {
-    "name": "Test",
-    "symbol": "TST",
+    "name": "mETH",
+    "symbol": "mETH",
     "chainDetails": [
         {
-            "rpcEnvName": "ETHEREUM_GOERLI_RPC",
-            "erc20": "0x0000000000000000000000000000000000000001",
-            "governor": "0x0000000000000000000000000000000000000002",
+            "rpcEnvName": "FUSE_RPC",
+            "erc20": "0x0000000000000000000000000000000000000000",
+            "governor": "0x5Bb7C4cA6767699F07dB3a07534a786e66Eab4a7",
             "isNativeGasToken": false,
             "bridgeDetails": [
                 {
-                    "bridge": "0x0000000000000000000000000000000000000003",
-                    "burnLimit": 1000e18,
-                    "mintLimit": 1000e18
+                    "bridge": "0x353af4878d7452e974538706273887F7ED90Da47",
+                    "burnLimit": 10000000000000000000000000,
+                    "mintLimit": 10000000000000000000000000
                 }
             ]
         }
